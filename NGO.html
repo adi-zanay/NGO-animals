@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pop-over</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+</head>
+<script>
+    $(function() {
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
+<style>
+    body {
+        background-image: url("https://assets.thehansindia.com/h-upload/2019/10/04/223035-ngo.webp");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-sm bg-success justify-content-center navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#home" class="nav-link"> HOME </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link"> ABOUT </a>
+            </li>
+            <li class="nav-item">
+                <a href="#project" class="nav-link"> PROJECT </a>
+            </li>
+            <li class="nav-item">
+                <a href="#story" class="nav-link"> RESCUE STORY </a>
+            </li>
+            <li class="nav-item">
+                <a href="#news" class="nav-link"> NEWS </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link"> CONTACT US </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid" id="home">
+        <div class="conatiner-fluid" style="padding-top: 4%;">
+            <table class="table table-dark table-borderless">
+                <tr>
+                    <td>
+                        <img src="https://th.bing.com/th/id/OIP.qMWU4Hp0jo7tXFYdZ6aDUQHaHa?pid=ImgDet&rs=1" height="200" width="210">
+                    </td>
+                    <td>
+                        <center>
+                            <p class="display-4"><b> Help in Suffering </b></p>
+                            <b>Location : </b> Maharani Farm, Durgapura, Jaipur <b style="margin-left: 8%;">Contact : </b>+91141-2760012 <br>
+                            <center><b>Mail : </b>directorcampus@his-india.in</center>
+                        </center>
+                    </td>
+                    <td><br><br>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown"> Donate </button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Indian Doner</a>
+                                <a href="#" class="dropdown-item">Overseas Doner</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container" style="margin: 8%;">
+            <div id="place" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#place" data-slide-to="0" class="active"></li>
+                    <li data-target="#place" data-slide-to="1"></li>
+                    <li data-target="#place" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <center><img src="pic1.png" alt="" width="900" height="500"></center>
+                        <div class="carousel-caption">
+                            <h3>Help in suffering</h3>
+                            <p>' For helping suffering animals and all living things '</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="pic2.png" alt="" width="900" height="500"></center>
+                        <div class="carousel-caption">
+                            <h3>help in suffering</h3>
+                            <p>' For helping suffering animals and all living things '</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="pic3.png" alt="" width="900" height="500"></center>
+                        <div class="carousel-caption">
+                            <h3>Help in suffering</h3>
+                            <p>' For helping suffering animals and all living things '</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#place" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span> </a>
+                <a class="carousel-control-next" href="#place" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid table-success" id="about"><br><br><br>
+        <center>
+            <p class="display-4"> <b class="text-danger">About </b><b class="text-success">Help in Suffering</b></p>
+        </center>
+        <h6 class="text-center">
+            <small>
+                   Help In Suffering (HIS) is a registered Indian charitable trust working for the benefit of the animals in India. We are associated with Help In Suffering U.K., Federation of Indian Animal Protection Organisations , Animaux- Secure France , Les Amis Suisses du Refuge de l’Espoir Switzerland and Working for Animals Australia HIS was founded in 1980 by a British animal lover,Miss Crystal Rodgers, aiming for helping suffering animals and all living things. The veterinary hospital was started with limited resources, in a small areawhich was later extended to 2 acres of wooded land in south Jaipur, in the Indian state of Rajasthan. Help in Suffering provides free, quality, emergency medical and surgical care for domesticated and street animals, regardless of age,who are ill or victims of traumatic injuries and who have been abused, starved and/or abandoned by their owners. HIS is run by a team of extremely dedicated and staff and their compassion for animals is what drives them to strive harder. We have thirty-five trained staffmembers for handling the sick and traumatisedanimals, five rescue ambulances and two mobile clinic vehicles. Animal welfare projects are conducted underthe guidance of trained Vets. The campus providespeaceful surroundings and a serene, green natural habitat for animals to support quick healing. HIS also has adequate administrative procedures in place to ensure documentation, accounting and overall management. It has been almost four decades and we are stillproviding shelter, medical aid and care to birds and animals of all species. This would not have been possible without the support and encouragement of our donors. Indeed, in the absence of any governmental funding or support, it is only due to the generosity of our donors from all across the globe, that HIS has been able to sustain itself. Over the years, we have grown into a large animal welfare organization with a number of projects. We can proudly claim that due to ourvigorous efforts, Jaipur has become the only city in Rajasthan which is Rabies free. Our Animal Birth Control programme is another of our success stories, as result of which, dog bite cases in Jaipur, are very fewas compared to the other parts of the country. We also run a specialist Camel Rescue Centre in Bassi, in rural Jaipur district, to serve sick, old and injuredcamels. Our mobile camel rescue team is well known in the state for their tremendous work and dedication. Having achieved so much and in spite of having served for 4 decades, we are still constantly working towards improving the facilities that we are able to offer. Owing to the substantial cost of medical equipment we have been unable to upgrade our resources. We are desperately short of some life-saving and diagnostic tools which are commonplace in all hospitals but are not available for animals. However, we forge ahead,undaunted to provide the best we can under the circumstances.
+               </small>
+        </h6>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 table-dark"><br>
+                <h3 class="text-warning" style="padding-left: 5%;"><b>Opening Hours</b></h3>
+                <hr>
+                <b style="padding-left: 10%;">Monday - Friday</b><b style="padding-left: 31%;">8:00 - 18:00</b><br>
+                <b style="padding-left: 10%;">Monday - Saturday</b><b style="padding-left: 28%;">9:00 - 17:00</b><br>
+                <b style="padding-left: 10%;">Monday - Sunday</b><b style="padding-left: 30%;">9:00 - 15:00</b><br><br>
+            </div>
+            <div class="col-sm-5 table-dark"><br>
+                <h3 class="text-warning" style="padding-left: 5%;"><b>Emergency Cases</b></h3>
+                <hr>
+                <h4><b>0141 – 2760012</b></h4>
+                <small>Your treatment plan is designed for steady progress, with every phase promptly implemented.</small>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="container alert-success" id="project"><br><br><br>
+        <center>
+            <p class="display-4"> <b class="text-danger">All </b><b class="text-success">Projetcs</b></p>
+        </center>
+        <br>
+        <table class="table table-dark">
+            <tr>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/_full/elephants-key-projects-2021.jpg" height="200" width="330" data-toggle="collapse" data-target="#img1">
+                    <div class="collapse text-center" id="img1">
+                        <b>Saving elephants from a Life of Abuse</b><br>
+                        <small>Captive elephants live deplorable lives of neglect and abuse, whether they are in the working industries, tourist industries, or living in a temple. The problems which beset these gentle giants in captivity are many and varied: the psychological torment of being without freedom and without social bonds, outreach abuse & beatings, poor housing food, water, and exercise.</small>
+                    </div>
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/_full/20150627_154532.jpg" height="200" width="330" data-toggle="collapse" data-target="#img2">
+                    <div class="collapse text-center" id="img2">
+                        <b>Special Kennels for Special Animals</b><br>
+                        <small>We have provided outstanding support for the betterment of lives in Dehradoon at the Rahaat shelter. an isolated puppy nursery allowing puppies too young for vaccination to stay farther from adult dogs; a cat shelter that allows the cats to be far removed from the stress of barking dogs; a paraplegic/special needs dog kennel where special needs dogs can remain safe and provide easier access to vets for their daily care.</small>
+                    </div>
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/disaster_relief_cows.jpg" height="200" width="330" data-toggle="collapse" data-target="#img3">
+                    <div class="collapse text-center" id="img3">
+                        <b>When Disaster Strikes</b><br>
+                        <small>We believe that no animal should ever be used for food, profit or any other purpose detrimental to the animal's life and well-being. However, in disasters, we believe the best ethical choice is to do as much as possible to prevent the death and relieve the suffering of farmed animals and other "livestock." </small>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/street-vaccination.jpg" height="200" width="330">
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/_full/unnamed.jpg" height="200" width="330">
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://helpanimalsindia.org/images/general/plastic-cow.jpg" height="200" width="330">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <b>Veterinary Training</b><br>
+                    <small>Help Animals India has provided one of India’s first feline veterinary training courses. The concept of pet cats is still fairly new in India, thus feline surgery is rarely taught in Indian vet schools and previously no advanced training was offered. </small>
+                </td>
+                <td></td>
+                <td class="text-center">
+                    <b>Getting from A to B</b><br>
+                    <small>This ambulance used by HOPE and Animal Trust in Ranchi rescues animals and then some. It's a multipurpose vehicle for education and awareness activities, ABC (animal birth control) camps in rural areas and mobile veterinary services and vaccinations.</small>
+                </td>
+                <td></td>
+                <td class="text-center">
+                    <b>Protecting ”Plastic Cows”</b><br>
+                    <small>In India, cows roam the streets by the millions, scavenging for food wherever they can find it. Inevitably that includes garbage wrapped in plastic bags.  Believe it or not, that mass of brown material in front of this scrawny street cow is plastic that has been surgically removed from her gut.</small>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <table class="table">
+            <tr align="center">
+                <td class="table-success" width="333">
+                    <button class="btn table-dark btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year. Please help. Together" data-trigger="focus">
+                            DONATE
+                        </button>
+                </td>
+                <td class="table-dark" width="333">
+                    <button class="btn table-success btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year." data-trigger="focus">
+                            FUNDRAISE
+                        </button>
+                </td>
+                <td class="table-success" width="333">
+                    <button class="btn table-dark btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year." data-trigger="focus">
+                            OUR ACHIEVEMENTS
+                        </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container table-success" id="story"><br><br><br>
+        <center>
+            <p class="display-4"> <b class="text-danger">RESCUE </b><b class="text-success">STORIES</b></p>
+        </center>
+        <br>
+        <table class="table table-dark">
+            <tr>
+                <td>
+                    <img src="https://his-india.in/images/rescue-story/gX2eBXDDI1suTD4ml9bSCIjGo9hUuqUfazIAx5y1.jpg" height="200" width="330">
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://his-india.in/images/rescue-story/DQf0a7mUuaC5bqEC6qQ0qfkMfE7l9oafdSOILpQK.png" height="200" width="330">
+                </td>
+                <td></td>
+                <td>
+                    <img src="https://his-india.in/images/rescue-story/qbZa0B6uRx1KAEi9OWsDtMzKZYoMcyDHCJjTVA9h.jpg" height="200" width="330">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <b class="text-warning">Shelter Update</b><br>
+                    <small>A busy morning in our Dispensary clinic which treats pets an...</small><br><br>
+                    <button class="btn btn-outline-danger">Read More</button>
+                </td>
+                <td></td>
+                <td class="text-center">
+                    <b class="text-warning">"Only a life lived f...</b><br>
+                    <small>Nearly all of us can recall a first inkling or even a single...</small><br><br>
+                    <button class="btn btn-outline-danger">Read More</button>
+                </td>
+                <td></td>
+                <td class="text-center">
+                    <b class="text-warning">New Life</b><br>
+                    <small>Our Rescue Team was recently called to a cow in distress..</small><br><br>
+                    <button class="btn btn-outline-danger">Read More</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <table class="table">
+            <tr align="center">
+                <td class="table-success" width="333">
+                    <button class="btn table-dark btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year. Please help. Together" data-trigger="focus">
+                            DONATE
+                        </button>
+                </td>
+                <td class="table-dark" width="333">
+                    <button class="btn table-success btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year." data-trigger="focus">
+                            FUNDRAISE
+                        </button>
+                </td>
+                <td class="table-success" width="333">
+                    <button class="btn table-dark btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Your generous support helps us care for many thousands of sick, injured and suffering animals every year." data-trigger="focus">
+                            OUR ACHIEVEMENTS
+                        </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container-fluid alert-success" id="news"><br><br><br>
+        <center>
+            <p class="display-4"> <b class="text-danger">News</b><b class="text-success">letter</b></p>
+        </center>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 table-dark"><br>
+                <center><img src="https://his-india.in/images/news-letter/zdoBYCjrzCVVS3IExyo7qZH1KLpekutu6ZyCWl48.jpg" class="img-thumbnail">
+                    <b class="text-danger">NEWS LETTER ANNUAL 2019</b></center>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 table-dark"><br>
+                <center><img src="https://his-india.in/images/news-letter/r8djBeWkBkpbmLwPEit9du8SWkgyvbfi9qj4RzwM.jpg" class="img-thumbnail">
+                    <b class="text-danger">NEWS LETTER NOVEMBER 2019</b></center>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3 table-dark"><br>
+                <center><img src="https://his-india.in/images/news-letter/vv4f4AZRT6DqaxrDCL7pIySGvpWl5EnQElb0cnYF.jpg" class="img-thumbnail">
+                    <b class="text-danger">SPRING 2018</b><br></center>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid table-success" id="contact" style="padding-top: 25%;">
+        <center>
+            <p class="display-4"> <b class="text-danger">Contact </b><b class="text-success">Us</b></p>
+        </center>
+        <br>
+        <center>
+            <h3 class="text-danger">Emergency</h3><br>
+            <p>
+                <b>In case of emergency contact our helpline.</b><br>
+                <b>If you can arrange to bring the animal to our hospital yourself, please do so</b><br>
+                <b>Rescue Numbers- 0141 - 2760012 / 8107299711</b>
+            </p>
+        </center>
+    </div>
+
+</body>
+
+</html>
